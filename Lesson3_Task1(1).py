@@ -1,6 +1,7 @@
 sentence = input("введите предложение- \n")
-print("измененный вариант: \n")
-print(f"{sentence.replace(' ','--')}")
+print()
+print("измененный вариант:")
+print(f"\033[31m{sentence.replace(' ','-')}")
 
 
 
